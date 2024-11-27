@@ -5,8 +5,8 @@
     box-sizing:border-box;
 }
 .container{
-    width: fit-content;
-    min-height: fit-content;
+    width: 100%;
+    min-height: 100%;
     background-color: #e6e201;
     background-size:cover;
     .Title{
@@ -71,16 +71,14 @@ h2{
      
 }
 .image-button{
-    position: absolute;
-    left: 95%;
-    top: 95%;
-    width: 3%;
-    height: 5%;
+    position: relative;
     background-image: url(heart-png--3100-3104799477.png);
     background-size: cover;
     background-color: #e6e201;
     border: none;
     cursor: pointer;
+    width: 1%;
+    height: 2%;
 
 }
 .waschbaer{
@@ -96,6 +94,9 @@ h2{
     border-radius: 10%;
     position: relative;
     max-height: fit-content;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    
 
 }
 
