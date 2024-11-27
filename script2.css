@@ -5,31 +5,63 @@
     box-sizing:border-box;
 }
 .container{
-    width:100%;
-    min-height: 100vh;
+    width: fit-content;
+    min-height: fit-content;
     background-color: #e6e201;
     background-size:cover;
     .Title{
         background-color: rgb(0, 0, 0);
         min-height: 20%;
-    
+
     }
 }
-
 h1{
     text-align: center;
     color: rgb(238, 255, 0);
     text-shadow: 2px 2px rgb(52, 58, 4);
-    font-size: 400%;
+    font-size: 800%;
     white-space: wrap;
     padding: 3% 5% 3% 5%;
     font-family: fantasy;
 }
-.fire-btn{
+.Words{
+    display: inline-flex;
+    
+}
+.Fattext{
+   
+    position: relative;
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: black;
+    border-radius: 15px 15px 15px 15px;
+}
+p{
+
+    padding: 5% 5% 5% 5%;
+    text-align: center;
+    color: white;
+    font-size: 300%;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+h2{
     position: absolute;
-    top: 80%;
-    left: 30%;
-    right: 30%;
+    top: 40%;
+    left: 33%;
+    right: 35%;
+    color:rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 800%;
+    opacity: 0%;
+   
+}
+
+.fire-btn{
+    position: relative;
+    top: 100%;
+    left: 45%;
     background: rgb(33, 197, 0);
     color:rgb(255, 230, 0);
     font-weight: bold;
@@ -37,6 +69,34 @@ h1{
     font-size: 100%;
     border-radius: 3px;
      
+}
+.image-button{
+    position: absolute;
+    left: 95%;
+    top: 95%;
+    width: 3%;
+    height: 5%;
+    background-image: url(heart-png--3100-3104799477.png);
+    background-size: cover;
+    background-color: #e6e201;
+    border: none;
+    cursor: pointer;
+
+}
+.waschbaer{
+    margin-top: 15%;
+    margin-left: 2%;
+    border-radius: 10%;
+    position: relative;
+    max-height: fit-content;
+}
+.waschbaerparty{
+    margin-top: 15%;
+    margin-right: 2%;
+    border-radius: 10%;
+    position: relative;
+    max-height: fit-content;
+
 }
 
 
