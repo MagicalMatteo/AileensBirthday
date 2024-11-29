@@ -30,40 +30,13 @@
 
     <script src="https://cdn.jsdelivr.net/npm/@tsparticles/confetti@3.0.3/tsparticles.confetti.bundle.min.js"></script>
     <script>
-        function perfectFirework(){
-            confetti({  
-                angle: randomInRange(80, 70),
-                spread: randomInRange(50, 70),
-                particleCount: randomInRange(50, 100),
-                origin: { x: 0.0 ,y: 0.7 },
-            });
-            confetti({  
-                angle: randomInRange(160, 110),
-                spread: randomInRange(50, 70),
-                particleCount: randomInRange(50, 100),
-                origin: { x: 1 ,y: 0.7 },
-            });
-        }
-        function Endthat(){
-            document.getElementById("Test").style.opacity = "0";
-            document.getElementById("Fattext").style.filter = "blur(0px)";
-        }
         const fireBtn = document.querySelector(".fire-btn")
         fireBtn.addEventListener("click", () => {
-
-            clearInterval(myInterval);
-            document.getElementById("Test").style.opacity = "1";
-            document.getElementById("Fattext").style.filter = "blur(5px)";
-        
-            setInterval(Endthat, 5000);
-
-    
-        })
-        window.addEventListener("pageshow", () => {
 
             function randomInRange(min, max) {
                 return Math.random() * (max - min) + min;
             }
+
             confetti({  
                 angle: randomInRange(10, 90),
                 spread: randomInRange(50, 70),
@@ -76,8 +49,26 @@
                 particleCount: randomInRange(50, 100),
                 origin: { x: 0.9 ,y: 0.7 },
             });
-                myInterval = setInterval(perfectFirework,100);
-1            
+    
+        })
+        window.addEventListener("pageshow", () => {
+
+            function randomInRange(min, max) {
+                return Math.random() * (max - min) + min;
+            }
+
+            confetti({  
+                angle: randomInRange(10, 90),
+                spread: randomInRange(30, 80),
+                particleCount: randomInRange(50, 100),
+                origin: { x: 0 ,y: 0.7 },
+            });
+            confetti({  
+                angle: randomInRange(150, 90),
+                spread: randomInRange(40, 80),
+                particleCount: randomInRange(50, 100),
+                origin: { x: 1 ,y: 0.7 },
+            });
             })
     </script>
   
