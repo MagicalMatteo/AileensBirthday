@@ -61,9 +61,10 @@ h2{
 
 .fire-btn{
     position: relative;
-    margin-left: 35%;
-    margin-top: 2%;
-    margin-right: 35%;
+    margin-left: 20%;
+    margin-top: 5%;
+    margin-right: 20%;
+    width: auto;
     background: rgb(33, 197, 0);
     color:rgb(255, 230, 0);
     font-weight: bold;
@@ -84,20 +85,22 @@ h2{
 
 }
 .waschbaer{
-    margin-top: 15%;
+    margin-top: 10%;
     margin-right: 2%;
     margin-left: 2%;
     border-radius: 10%;
     position: relative;
-    max-height: fit-content;
+    max-height: auto;
+    max-width: 95%;
 }
 .waschbaerparty{
-    margin-top: 15%;
+    margin-top: 10%;
     margin-left: 2%;
     margin-right: 2%;
     border-radius: 10%;
     position: relative;
-    max-height: fit-content;
+    max-height: auto;
+    max-width: 95%;
     -webkit-transform: scaleX(-1);
     transform: scaleX(-1);
     
