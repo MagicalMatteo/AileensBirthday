@@ -19,12 +19,13 @@ h1{
     text-align: center;
     color: rgb(238, 255, 0);
     text-shadow: 2px 2px rgb(52, 58, 4);
-    font-size: 800%;
+    font-size: 500%;
     white-space: wrap;
     padding: 3% 5% 3% 5%;
     font-family: fantasy;
 }
 .Words{
+    flex-wrap: wrap;
     display: inline-flex;
     
 }
@@ -48,20 +49,21 @@ p{
 }
 h2{
     position: absolute;
-    top: 40%;
-    left: 33%;
+    top: 70%;
+    left: 10%;
     right: 35%;
     color:rgb(255, 255, 255);
     font-weight: bold;
-    font-size: 800%;
+    font-size: 300%;
     opacity: 0%;
    
 }
 
 .fire-btn{
     position: relative;
-    top: 100%;
-    left: 45%;
+    margin-left: 35%;
+    margin-top: 2%;
+    margin-right: 35%;
     background: rgb(33, 197, 0);
     color:rgb(255, 230, 0);
     font-weight: bold;
@@ -77,12 +79,13 @@ h2{
     background-color: #e6e201;
     border: none;
     cursor: pointer;
-    width: 1%;
+    width: 5%;
     height: 2%;
 
 }
 .waschbaer{
     margin-top: 15%;
+    margin-right: 2%;
     margin-left: 2%;
     border-radius: 10%;
     position: relative;
@@ -90,6 +93,7 @@ h2{
 }
 .waschbaerparty{
     margin-top: 15%;
+    margin-left: 2%;
     margin-right: 2%;
     border-radius: 10%;
     position: relative;
