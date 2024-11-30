@@ -43,7 +43,7 @@ p{
     padding: 5% 5% 5% 5%;
     text-align: center;
     color: white;
-    font-size: 300%;
+    font-size: 200%;
     font-family: Arial, Helvetica, sans-serif;
 
 }
@@ -52,19 +52,17 @@ h2{
     top: 70%;
     left: 10%;
     right: 35%;
-    color:rgb(255, 255, 255);
+    color:rgb(121, 3, 255);
     font-weight: bold;
     font-size: 300%;
     opacity: 0%;
    
 }
-
 .fire-btn{
     position: relative;
-    margin-left: 20%;
+    margin-left: 30%;
     margin-top: 5%;
-    margin-right: 20%;
-    width: auto;
+    width: 40%;
     background: rgb(33, 197, 0);
     color:rgb(255, 230, 0);
     font-weight: bold;
@@ -85,18 +83,16 @@ h2{
 
 }
 .waschbaer{
-    margin-top: 10%;
-    margin-right: 2%;
-    margin-left: 2%;
+    margin: auto;
+    margin-top: 5%;
     border-radius: 10%;
     position: relative;
     max-height: auto;
     max-width: 95%;
 }
 .waschbaerparty{
-    margin-top: 10%;
-    margin-left: 2%;
-    margin-right: 2%;
+    margin: auto;
+    margin-top: 5%;
     border-radius: 10%;
     position: relative;
     max-height: auto;
@@ -104,7 +100,6 @@ h2{
     -webkit-transform: scaleX(-1);
     transform: scaleX(-1);
     
-
 }
 
 
