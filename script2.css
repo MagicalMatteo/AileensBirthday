@@ -15,6 +15,14 @@
 
     }
 }
+h2{
+    text-align: center;
+    margin: auto;
+    position: relative;
+    color: black;
+    font-size: 300%;
+    opacity: 0%;
+}
 h1{
     text-align: center;
     color: rgb(238, 255, 0);
@@ -26,7 +34,7 @@ h1{
 }
 .Words{
     flex-wrap: wrap;
-    display: inline-flex;
+    display: grid;
     
 }
 .Fattext{
@@ -46,17 +54,6 @@ p{
     font-size: 200%;
     font-family: Arial, Helvetica, sans-serif;
 
-}
-h2{
-    position: absolute;
-    top: 70%;
-    left: 10%;
-    right: 35%;
-    color:rgb(121, 3, 255);
-    font-weight: bold;
-    font-size: 300%;
-    opacity: 0%;
-   
 }
 .fire-btn{
     position: relative;
