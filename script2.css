@@ -66,18 +66,6 @@ p{
     padding: 1% 1%;
     font-size: 100%;
     border-radius: 3px;
-     
-}
-.image-button{
-    position: relative;
-    background-image: url(heart-png--3100-3104799477.png);
-    background-size: cover;
-    background-color: #e6e201;
-    border: none;
-    cursor: pointer;
-    width: 5%;
-    height: 2%;
-
 }
 .waschbaer{
     margin: auto;
@@ -97,6 +85,9 @@ p{
     -webkit-transform: scaleX(-1);
     transform: scaleX(-1);
     
+}
+.HEART{
+   
 }
 
 
